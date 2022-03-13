@@ -1,0 +1,29 @@
+:root {
+  --header-bg: #023047;
+  --visualizer-bar-normal: #8ecae6;
+  --visualizer-bar-set: #1c839c;
+  --visualizer-bar-highlight: #e63946;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

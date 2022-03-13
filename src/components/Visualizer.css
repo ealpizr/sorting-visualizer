@@ -1,0 +1,12 @@
+.visualizer-container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.visualizer-bar {
+  flex: 1;
+  overflow: hidden;
+  background-color: var(--visualizer-bar-normal);
+  margin: 0 1px;
+}
